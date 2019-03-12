@@ -1,4 +1,4 @@
-html {
+/* html {
   font-family: sans-serif;
   -ms-text-size-adjust: 100%;
   -webkit-text-size-adjust: 100%;
@@ -619,4 +619,73 @@ pre tt:after {
   html {
     font-size: 100%;
   }
+} */
+
+.App {
+  /* display: flex; */
+}
+
+.pageBreak {
+  width: 80%
+}
+
+.header {
+
+}
+
+.title {
+  text-align: center
+}
+
+.subTitle {
+  text-align: center
+}
+
+.socialContent {
+  text-align: center;
+}
+
+sg {
+  padding: 10px
+}
+
+i {
+  margin-right: 10px;
+}
+
+img {
+  border-radius: 50%;
+}
+
+.avatar {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  padding: 10px;
+}
+
+landingPar {
+  width: 80%
+}
+
+ul {
+  width: 70%;
+  margin: auto;
+  list-style-type: none;
+}
+
+.navv {
+  /* width: 70%;
+  display: inline-block; */
+  margin: 0 0.35em;
+  padding: 0;
+  vertical-align: middle;
+}
+
+.navv a {
+  display: inline-block;
+  height: 2.25em;
+  line-height: 2.25em;
+  padding: 0 1.25em;
+  border: 0;
 }
