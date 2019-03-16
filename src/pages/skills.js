@@ -3,8 +3,7 @@ import Layout from "../components/layout"
 import "../components/layout.css"
 const Skills = (props) => {
   return (
-    <Layout>
-      <div className = "container" style = {{ width: "70%", textAlign: "center"}} >
+      <div id = "first"s>
         <h6 style = {{textAlign: "center"}}>Here are some of the languages, frameworks and tools I use for development.</h6>
         <div className = "row">
           <ul className = "col-lg-4 col-md-4 col-sm-4" style = {{textAlign: "center"}}>
@@ -42,7 +41,6 @@ const Skills = (props) => {
           </ul>
         </div>
       </div>
-    </Layout>
   )
 }
 

@@ -3,8 +3,7 @@ import Layout from "../components/layout"
 import "../components/layout.css"
 const Portfolio = (props) => {
   return (
-    <Layout>
-    <div className = "container" style = {{ width: "70%"}}>
+    <div id = "cta" className = "container">
       <h1 style = {{textAlign: "center"}}>Experience</h1>
       <h6>Opportunity Sketch</h6>
       <h6>Swan Lake</h6>
@@ -12,7 +11,6 @@ const Portfolio = (props) => {
       <h6>Alarmoquy</h6>
       <h6>Beeraseuir</h6>
     </div>
-    </Layout>
   )
 }
 

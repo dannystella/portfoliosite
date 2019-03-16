@@ -4,8 +4,7 @@ import "../components/layout.css"
 
 const Resume = (props) => {
   return (
-    <Layout>
-      <div className = "container" style = {{ width: "70%"}}>
+      <div id = "second" className = "container">
         <h1 style = {{textAlign: "center"}}>Work History</h1>
         <h6 style = {{textAlign: "center"}}>Solution Engineer, Oracle - Boston, MA 2018-Present</h6>
         <p>Designed and built proof of concepts implementing and demonstrating Oracle cloud products. 
@@ -18,7 +17,6 @@ const Resume = (props) => {
         <h1 style = {{textAlign: "center"}}>Education</h1>
         <p>Bachelor of Arts - Sound Recording Technology • University of Massachusetts Amherst Amherst, MA • Feb 1st 2016 </p>
       </div>
-    </Layout>
   )
 }
 

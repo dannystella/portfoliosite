@@ -25,7 +25,7 @@ const Layout = ({ children }) => (
     render={data => (
       <>
         <Header siteTitle={data.site.siteMetadata.title} />
-        <div className = "container-fluid">
+        <div className = "container-fluid" style = {{width: "80%"}}>
           <main>{children}</main>
           <footer>
           </footer>
